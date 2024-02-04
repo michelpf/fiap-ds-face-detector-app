@@ -37,9 +37,9 @@ if foto:
         payload = json.dumps(payload)
 
         # URL da sua API Gateway
-        url = "https://u2dspwvgdq6dwi6qj26lyl5y5e0hcqzq.lambda-url.us-east-1.on.aws"
+        endpoint = st.secrets["API-ENDPOINT"]
 
-        response = requests.post(url, json=payload)
+        response = requests.post(endpoint, json=payload)
         
 
         # Verifique se a solicitação foi bem-sucedida
