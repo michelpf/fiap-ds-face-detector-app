@@ -1,4 +1,4 @@
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://laptopricing.streamlit.app)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://face-validation.streamlit.app)
 
 # Aplicação para Preparação de Foto para Documentos
 
